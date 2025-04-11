@@ -58,5 +58,5 @@ O plugin fornece os seguintes comandos:
 
 ## Integração com móveis do ItemsAdder
 
-deixei anexado um pacote de exemplo do ItemsAdder
+Deixei anexado um pacote de exemplo do ItemsAdder.
 Coloque no servidor e mude a config key_smithing-table para: `magic_store:blacksmith_table_1_2x1`
