@@ -10,7 +10,7 @@ BetterLocks é um plugin para Minecraft que adiciona funcionalidades para tranca
 |--------------------------------|---------------------------------------------------------------------------|--------------|
 | `active-worlds`                | Lista de mundos onde o plugin está ativo.                                | `["world"]`  |
 | `allow-lockpicking`            | Habilita ou desabilita o arrombamento.                                   | `true`       |
-| `is-keychain-active`           | Habilita ou desabilita o recurso de molho de chaves.                            | `true`       |
+| `is-keychain-active`           | Habilita ou desabilita o recurso do molho de chaves.                            | `true`       |
 | `keychain-size`                | Número máximo de chaves que um chaveiro pode conter.                     | `9`          |
 | `door-inventory-gui-title`     | Título para a interface gráfica do inventário de portas.                 | `"\uDAFF\uDFF8\uE971"` |
 | `keysmithing-table-gui-title`  | Título para a interface gráfica da mesa de chaveiro.                     | `"\uDAFF\uDFC4\uE963"` |
