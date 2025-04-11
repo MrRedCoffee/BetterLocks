@@ -65,4 +65,4 @@ Coloque no servidor e mude a configuração `keysmithing-table-ia-furniture` par
 
 ## Dica
 
-Ao deletar portas trancadas utilizando `Worldedit` ou apagar a pasta `World` as trancas da porta são mantidas no banco de dados, então deve tomar cuidado com isso.
+Ao deletar portas e alçapões trancados utilizando `Worldedit` ou apagar a pasta `World` as trancas da porta são mantidas no banco de dados, então deve tomar cuidado com isso.
