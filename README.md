@@ -55,3 +55,8 @@ O plugin fornece os seguintes comandos:
 2. Inicie o servidor para gerar o arquivo de configuração padrão.
 3. Edite o arquivo de configuração (`config.yml`) conforme necessário.
 4. Recarregue ou reinicie o servidor para aplicar as alterações.
+
+## Integração com móveis do ItemsAdder
+
+deixei anexado um pacote de exemplo do ItemsAdder
+Coloque no servidor e mude a config key_smithing-table para: magic_store:blacksmith_table_1_2x1
