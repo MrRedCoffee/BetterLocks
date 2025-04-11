@@ -17,7 +17,7 @@ O arquivo de configuração do plugin está localizado em `src/main/resources/co
 | `door-inventory-gui-title`     | Título para a interface gráfica do inventário de portas.                 | `"\uDAFF\uDFF8\uE971"` |
 | `keysmithing-table-gui-title`  | Título para a interface gráfica da mesa de chaveiro.                     | `"\uDAFF\uDFC4\uE963"` |
 | `lockpick-minigame-title`      | Título para a interface gráfica do minijogo de arrombamento.             | `"\uDAFF\uDFF8\uE964"` |
-| `key_smithing-table`           | Identificador para o mobiliário da mesa de chaveiro.                     | `"itemsadder:lockpick_table"` |
+| `keysmithing-table-ia-furniture`           | Identificador para o mobiliário da mesa de chaveiro.                     | `"itemsadder:lockpick_table"` |
 | `online-cops-needed-for-lockpick` | Número mínimo de jogadores com permissão de polícia online para permitir arrombamento. | `2` |
 
 ---
@@ -59,4 +59,4 @@ O plugin fornece os seguintes comandos:
 ## Integração com móveis do ItemsAdder
 
 Deixei anexado um pacote de exemplo do ItemsAdder.
-Coloque no servidor e mude a config key_smithing-table para: `magic_store:blacksmith_table_1_2x1`
+Coloque no servidor e mude a config keysmithing-table-ia-furniture para: `magic_store:blacksmith_table_1_2x1`
