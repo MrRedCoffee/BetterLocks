@@ -60,3 +60,9 @@ O plugin fornece os seguintes comandos:
 
 Deixei anexado um pacote de exemplo do ItemsAdder.
 Coloque no servidor e mude a configuração `keysmithing-table-ia-furniture` para: `magic_store:blacksmith_table_1_2x1`.
+
+---
+
+## Dica
+
+Ao deletar portas com `Worldedit` ou apagar a pasta `World` as trancas da porta são mantidas no banco de dados, então deve tomar cuidado com isso.
