@@ -10,14 +10,14 @@ BetterLocks é um plugin para Minecraft que adiciona funcionalidades para tranca
 |--------------------------------|---------------------------------------------------------------------------|--------------|
 | `active-worlds`                | Lista de mundos onde o plugin está ativo.                                | `["world"]`  |
 | `allow-lockpicking`            | Habilita ou desabilita o arrombamento.                                   | `true`       |
-| `is-keychain-active`           | Habilita ou desabilita o recurso do molho de chaves.                            | `true`       |
+| `is-keychain-active`           | Habilita ou desabilita o recurso do molho de chaves. Para mudar essa configuração o servidor deverá ser reiniciado.                            | `true`       |
 | `keychain-size`                | Número máximo de chaves que um chaveiro pode conter.                     | `9`          |
 | `door-inventory-gui-title`     | Título para a interface gráfica do inventário de portas.                 | `"\uDAFF\uDFF8\uE971"` |
 | `keysmithing-table-gui-title`  | Título para a interface gráfica da mesa de chaveiro.                     | `"\uDAFF\uDFC4\uE963"` |
 | `lockpick-minigame-title`      | Título para a interface gráfica do minijogo de arrombamento.             | `"\uDAFF\uDFF8\uE964"` |
 | `keysmithing-table-ia-furniture` | Identificador para o mobiliário da mesa de chaveiro no ItemsAdder.       | `"itemsadder:lockpick_table"` |
 | `online-cops-needed-for-lockpick` | Número mínimo de policiais online para permitir arrombamento.          | `2`          |
-| `container-blacklist`          | Lista de materiais de contêineres que não podem ser trancados.           | `["furnace", "blast_furnace", "smoker"]` |
+| `container-blacklist`          | Lista de materiais que não podem ser trancados.           | `["furnace", "blast_furnace", "smoker"]` |
 
 ---
 
