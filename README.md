@@ -6,8 +6,6 @@ BetterLocks é um plugin para Minecraft que adiciona funcionalidades para tranca
 
 ## Configuração
 
-O arquivo de configuração do plugin está localizado em `src/main/resources/config.yml`. Abaixo estão as opções configuráveis:
-
 | Opção                          | Descrição                                                                 | Valor Padrão |
 |--------------------------------|---------------------------------------------------------------------------|--------------|
 | `active-worlds`                | Lista de mundos onde o plugin está ativo.                                | `["world"]`  |
@@ -17,8 +15,9 @@ O arquivo de configuração do plugin está localizado em `src/main/resources/co
 | `door-inventory-gui-title`     | Título para a interface gráfica do inventário de portas.                 | `"\uDAFF\uDFF8\uE971"` |
 | `keysmithing-table-gui-title`  | Título para a interface gráfica da mesa de chaveiro.                     | `"\uDAFF\uDFC4\uE963"` |
 | `lockpick-minigame-title`      | Título para a interface gráfica do minijogo de arrombamento.             | `"\uDAFF\uDFF8\uE964"` |
-| `keysmithing-table-ia-furniture`           | Identificador para o mobiliário da mesa de chaveiro.                     | `"itemsadder:lockpick_table"` |
-| `online-cops-needed-for-lockpick` | Número mínimo de policiais online para permitir arrombamento. | `2` |
+| `keysmithing-table-ia-furniture` | Identificador para o mobiliário da mesa de chaveiro no ItemsAdder.       | `"itemsadder:lockpick_table"` |
+| `online-cops-needed-for-lockpick` | Número mínimo de policiais online para permitir arrombamento.          | `2`          |
+| `container-blacklist`          | Lista de materiais de contêineres que não podem ser trancados.           | `["furnace", "blast_furnace", "smoker"]` |
 
 ---
 
@@ -29,10 +28,10 @@ O plugin utiliza um sistema baseado em permissões para controlar o acesso às s
 | Permissão               | Descrição                                                                 |
 |-------------------------|-------------------------------------------------------------------------|
 | `lockpick.override`     | Permite ignorar todos os bloqueios e restrições.                       |
-| `lockpick.pick`         | Permite que jogadores ou grupos tentem arrombar fechaduras.                      |
-| `lockpick.craft`        | Permite que jogadores ou grupos fabriquem ferramentas de arrombamento.           |
-| `lockpick.crowbar`      | Permite que jogadores ou grupos fabriquem e utilizem pés de cabra.               |
-| `lockpick.police`       | Marca um jogador ou grupos como policial para restrições de arrombamento.        |
+| `lockpick.pick`         | Permite que jogadores ou grupos tentem arrombar fechaduras.            |
+| `lockpick.craft`        | Permite que jogadores ou grupos fabriquem ferramentas de arrombamento. |
+| `lockpick.crowbar`      | Permite que jogadores ou grupos fabriquem e utilizem pés de cabra.     |
+| `lockpick.police`       | Marca um jogador ou grupo como policial para restrições de arrombamento.|
 
 ---
 
@@ -42,10 +41,9 @@ O plugin fornece os seguintes comandos:
 
 | Comando                  | Descrição                                                                 |
 |--------------------------|-------------------------------------------------------------------------|
-| `/betterlocks`           | Comando base do plugin. |
-| `/betterlocks password`  | Abre GUI do chaveiro. |
-| `/betterlocks getitems`  | Dá ao jogador itens relacionados ao plugin. |
-| `/betterlocks reload`    | Recarrega a configuração do plugin.                                     |
+| `/betterlocks password`  | Abre a GUI do chaveiro.                                                |
+| `/betterlocks getitems`  | Dá ao jogador todos os itens relacionados ao plugin.                   |
+| `/betterlocks reload`    | Recarrega a configuração do plugin.                                    |
 
 ---
 
@@ -56,7 +54,9 @@ O plugin fornece os seguintes comandos:
 3. Edite o arquivo de configuração (`config.yml`) conforme necessário.
 4. Recarregue ou reinicie o servidor para aplicar as alterações.
 
+---
+
 ## Integração com móveis do ItemsAdder
 
 Deixei anexado um pacote de exemplo do ItemsAdder.
-Coloque no servidor e mude a config keysmithing-table-ia-furniture para: `magic_store:blacksmith_table_1_2x1`
+Coloque no servidor e mude a configuração `keysmithing-table-ia-furniture` para: `magic_store:blacksmith_table_1_2x1`.
