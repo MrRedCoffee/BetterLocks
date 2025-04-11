@@ -1,6 +1,6 @@
-# Plugin LocksAndLockpicking
+# Plugin BetterLocks
 
-LocksAndLockpicking é um plugin para Minecraft que adiciona funcionalidades para trancar portas, contêineres e outros blocos interativos. Também introduz mecânicas de arrombamento e gerenciamento de chaves para uma jogabilidade mais imersiva.
+BetterLocks é um plugin para Minecraft que adiciona funcionalidades para trancar portas e contêineres. Também introduz mecânicas de arrombamento e gerenciamento de chaves para uma jogabilidade mais imersiva.
 
 ---
 
