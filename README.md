@@ -18,7 +18,7 @@ O arquivo de configuração do plugin está localizado em `src/main/resources/co
 | `keysmithing-table-gui-title`  | Título para a interface gráfica da mesa de chaveiro.                     | `"\uDAFF\uDFC4\uE963"` |
 | `lockpick-minigame-title`      | Título para a interface gráfica do minijogo de arrombamento.             | `"\uDAFF\uDFF8\uE964"` |
 | `keysmithing-table-ia-furniture`           | Identificador para o mobiliário da mesa de chaveiro.                     | `"itemsadder:lockpick_table"` |
-| `online-cops-needed-for-lockpick` | Número mínimo de jogadores com permissão de polícia online para permitir arrombamento. | `2` |
+| `online-cops-needed-for-lockpick` | Número mínimo de policiais online para permitir arrombamento. | `2` |
 
 ---
 
@@ -29,10 +29,10 @@ O plugin utiliza um sistema baseado em permissões para controlar o acesso às s
 | Permissão               | Descrição                                                                 |
 |-------------------------|-------------------------------------------------------------------------|
 | `lockpick.override`     | Permite ignorar todos os bloqueios e restrições.                       |
-| `lockpick.pick`         | Permite que jogadores tentem arrombar fechaduras.                      |
-| `lockpick.craft`        | Permite que jogadores fabriquem ferramentas de arrombamento.           |
-| `lockpick.crowbar`      | Permite que jogadores fabriquem e utilizem pés de cabra.               |
-| `lockpick.police`       | Marca um jogador como policial para restrições de arrombamento.        |
+| `lockpick.pick`         | Permite que jogadores ou grupos tentem arrombar fechaduras.                      |
+| `lockpick.craft`        | Permite que jogadores ou grupos fabriquem ferramentas de arrombamento.           |
+| `lockpick.crowbar`      | Permite que jogadores ou grupos fabriquem e utilizem pés de cabra.               |
+| `lockpick.police`       | Marca um jogador ou grupos como policial para restrições de arrombamento.        |
 
 ---
 
