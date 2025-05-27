@@ -59,7 +59,7 @@ O plugin fornece os seguintes comandos:
 ## Integração com móveis do ItemsAdder
 
 Deixei anexado um pacote de exemplo do ItemsAdder.
-Coloque no servidor e mude a configuração `keysmithing-table-ia-furniture` para: `magic_store:blacksmith_table_1_2x1`.
+Coloque no servidor e mude a configuração `keysmithing-table-ia-furniture` para: `magic_store:lockpick_table`.
 
 ---
 
